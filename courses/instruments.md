@@ -1,5 +1,7 @@
 # The instruments to build into every Spring 2027 course
 
+> **Status (2026-11-22):** written for the earlier study design, which validated a learning score against a transfer check and used Fall 2026 records. Paper 2 is now a classroom study of the Frictional audit. What changes in this file is listed in [irb-protocol-notes.md](../irb-protocol-notes.md) §11.
+
 ## Executive summary
 
 **What this is:** the specification for each measurement instrument that next semester's courses need so the Frictional paper can be tested: what the instrument is, which GLP component it feeds, how to build it in Canvas or GitHub, and what it costs in instructor time.
@@ -105,4 +107,4 @@ Plus the artifact score you already have: the implementation and explanation com
 
 ## The contrast condition is not a course instrument
 
-Agents completing the same assignments give the "known borrowed" anchor. That needs no students and no IRB; see [study/agent-contrast.md](../study/agent-contrast.md).
+Agents completing the same assignments give the "known borrowed" anchor. That needs no students and no IRB; now part of Paper 1's synthetic benchmark (`../auditing-the-making/synthetic-benchmark-spec.md`).

@@ -1,5 +1,7 @@
 # How each measure is computed
 
+> **Status (2026-11-22):** written for the earlier study design, which validated a learning score against a transfer check and used Fall 2026 records. Paper 2 is now a classroom study of the Frictional audit. What changes in this file is listed in [irb-protocol-notes.md](../irb-protocol-notes.md) §11.
+
 ## Executive summary
 
 **What this is:** operational definitions for every quantity the two papers will report: the seven GLP components, the artifact score, the independent criterion, and the information gain test. It fills the gaps the review found in the preprint's Section 4 and Section 7.

@@ -1,5 +1,7 @@
 # Setting up next semester's courses
 
+> **Status (2026-11-22):** written for the earlier study design, which validated a learning score against a transfer check and used Fall 2026 records. Paper 2 is now a classroom study of the Frictional audit. What changes in this file is listed in [irb-protocol-notes.md](../irb-protocol-notes.md) §11.
+
 ## Executive summary
 
 **What this is:** the checklist for building the Frictional instruments into every course taught in Spring 2027, with a week-by-week calendar for the term.
