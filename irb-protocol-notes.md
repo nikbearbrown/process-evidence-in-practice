@@ -100,11 +100,15 @@ The instructor's own markings and logs are recorded during the term for all subm
 
 - **Other Northeastern instructors** join by amendment to this protocol: they are added as personnel, their courses are listed, and they complete CITI training (DHR requires the CITI "Human Subjects Research, Stage 1 Basic Course" under the Northeastern affiliation, valid 3 years).
 - **Instructors at other institutions** need IRB coverage. Either their own IRB reviews their site, or their institution signs a reliance agreement with Northeastern as IRB of record. Ask the DHR:
-  - Does Northeastern serve as IRB of record for external sites?
-  - Does it use SMART IRB or its own agreement?
-  - How long does it take?
+  - How long does a SMART IRB reliance take for a non-exempt protocol?
+  - If the protocol is exempt, what should external instructors give their own IRBs (a copy of the Northeastern determination and protocol)?
 
-  *How Northeastern handles reliance is being checked. Do not rely on this note until it is confirmed.*
+  Checked 2026-11-22 on the DHR's [IRB reliance page](https://dhr.research.northeastern.edu/irb-reliance/):
+  - "For non-exempt research, NU will serve as the IRB of record for US based institutions which have a FWA on file."
+  - Northeastern will also cede review to a U.S. IRB of record.
+  - "We encourage investigators to use SMART IRB whenever possible." Northeastern is on SMART IRB's participating-institutions list. Institutional agreements (IAAs) and individual investigator agreements (IIAs) are available; IIAs cover collaborators at institutions without an FWA.
+  - **"The NU IRB does not enter into reliance agreements or establish IIAs for exempt research."** So if Paper 2 is determined exempt, every external site needs its own IRB determination. If it is non-exempt (for example, expedited because of random assignment), external sites can rely on Northeastern.
+  - Northeastern's FWA number, per the DHR page: 00004630.
 - **Amendment path for adding courses or terms:** DHR's newsletter reports a median of 3 business days for modifications.
 - **Not covered by this protocol:** a human red-team study, in which people try to game the audit; Fall 2026 or earlier records (retroactive use), unless the human decides to add them.
 

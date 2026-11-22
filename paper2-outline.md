@@ -87,7 +87,7 @@ Status key: **have**, **to collect** (the study must produce it), **to verify** 
 | Instructors' use of learning-analytics information in practice: what they look at, and what changes their decisions | Literature on teacher or instructor use of analytics dashboards | UNVERIFIED (to identify) |
 | People can over-rely on automated advice (automation bias), which matters when a report sits beside a grading decision | Automation-bias literature | UNVERIFIED (to identify) |
 | Learning-analytics ethics, consent and surveillance concerns | Slade and Prinsloo (2013) | have |
-| Commit-history mining in computing education | As in Paper 1 | to verify |
+| Commit-history mining in computing education | As in Paper 1 | have (verified) |
 
 ### 3. The tool, briefly
 
@@ -185,18 +185,29 @@ Status as in Paper 1: **verified** (checked 2026-11-22), **verifying**, **UNVERI
 | Keystroke-based detection of non-authentic text | Jiang et al. (2024); Deane et al. (2025); Crossley et al. (2024) | verified |
 | Detector unreliability and bias | Weber-Wulff et al. (2023); Liang et al. (2023) | verified |
 | Learning-analytics ethics | Slade and Prinsloo (2013) | verified |
-| Performance versus learning; desirable difficulties | Bjork and Bjork (1992, 2011); Bjork, Dunlosky and Kornell (2013) | 2011 and 2013 verified; 1992 verifying |
+| Performance versus learning; desirable difficulties | Bjork and Bjork (1992, 2011); Bjork, Dunlosky and Kornell (2013) | verified |
 | Transfer (secondary analysis) | Barnett and Ceci (2002), doi:10.1037/0033-2909.128.4.612 | verified |
-| Commit-history mining in computing education | Mierle et al. (2005); Edwards et al. (2009); 2023–2026 work | verifying |
+| Commit-history mining in computing education | Mierle et al. (2005); Edwards et al. (2009); Karakaš and Helić (2024); Song, Leinonen and Giacaman (2026); Gedeon and Giacaman (2026). Full details in the Paper 1 outline. | verified |
 | Instructor use of learning-analytics dashboards | — | UNVERIFIED (to identify) |
 | Automation bias in decision support | — | UNVERIFIED (to identify) |
-| Multi-site IRB reliance | Northeastern DHR reliance process; SMART IRB | verifying |
+| Multi-site IRB reliance | Northeastern DHR, [IRB reliance](https://dhr.research.northeastern.edu/irb-reliance/); SMART IRB participating institutions list (Northeastern is listed) | verified 2026-11-22 |
+| LLM grading reproducibility | Jukiewicz (2024), *Thinking Skills and Creativity* 52, 101522, doi:10.1016/j.tsc.2024.101522 | verified |
 
 ## Candidate venues
 
-*To be filled in from the venue and library-coverage check in progress; each entry will carry its date checked.* Already verified on 2026-11-22 (see [README.md](README.md)):
-- LAK27's paper deadline was September 28, 2026, and LAK27 is publishing full papers in Journal of Learning Analytics special issues as a trial. LAK28 is not announced.
-- The Journal of Learning Analytics charges no fees; research papers are up to 8,000 words.
+All checked on **2026-11-22**. Constraint: only venues where Northeastern University Library fully covers the APC, or that charge authors nothing. Coverage is from the library's open-access page (marked "Updated 11/17/2026"; [NU Library OA](https://library.northeastern.edu/resource_discovery/open-access-publishing/)) and Northeastern's [SciFree checker](https://search.scifree.se/northeastern) (data last updated July 28, 2026). Both require the Northeastern author to be the corresponding author.
+
+| Venue | Fees for a Northeastern corresponding author | Length and format | Review | Deadline | Notes and sources |
+|---|---|---|---|---|---|
+| **LAK28** (Learning Analytics and Knowledge) | LAK27 full papers are published in the Journal of Learning Analytics, which charges no fees. LAK28's publication route is not announced. | LAK27: full papers 10 to 14 pages, short 6 to 8, in JLA format including references | Double-blind with rebuttal | **Not announced.** LAK27 was abstract September 21, paper September 28, 2026, so expect late September 2027 (estimated) | Publishing in JLA is explicitly a "trial" for LAK27; SoLAR will decide whether to continue. [LAK27 call](https://www.solaresearch.org/events/lak/lak27/general-call/); [proceedings update](https://www.solaresearch.org/events/lak/lak27/proceedings-update/) |
+| **Journal of Learning Analytics** | None: "does not charge authors submission or processing charges" | Research papers up to 8,000 words including the abstract; CC BY 4.0 | Double-blind | Rolling | [JLA FAQ](https://learning-analytics.info/index.php/JLA/faq); [submissions](https://learning-analytics.info/index.php/JLA/about/submissions). Not listed in DOAJ. |
+| **ACM Transactions on Computing Education (TOCE)** | $0 through ACM Open (Northeastern is a participant; ACM APCs "fully covered") | No page or word limit; most 15 to 25 journal pages | Double-anonymous; monthly cut-off | Rolling. **Review tokens required since November 1, 2026.** | Research articles fit; experience reports are desk-rejected. [Author guidelines](https://dl.acm.org/journal/toce/author-guidelines) |
+| **British Journal of Educational Technology** (Wiley) | Covered: hybrid, "Included in Publisher Agreement" (SciFree); Wiley APCs fully covered, no cap stated. List APC $4,680. | 5,000 to 6,000 words excluding references, abstract, practitioner notes and appendices (under 4,000 is desk-rejected); structured Practitioner Notes required; APA | Double-blind | Rolling | [BJET for authors](https://bera-journals.onlinelibrary.wiley.com/hub/journal/14678535/forauthors.html) |
+| **Journal of Computer Assisted Learning** (Wiley) | Covered: hybrid, included (SciFree) | **UNVERIFIED** (Wiley site blocked the check) | **UNVERIFIED** | Rolling (UNVERIFIED) | Check the word limit before choosing it |
+| **Journal of Educational Computing Research** (Sage) | Covered: hybrid, included (SciFree); "no fees payable to submit or publish"; optional Sage Choice open access (amount UNVERIFIED), which the library covers for Sage hybrid journals | Up to 10,000 words including references; APA 7 | Double-anonymized | Rolling | Read from a Sage-hosted mirror of the guidelines: [JECR instructions](https://sage.cnpereading.com/storage/ext/submission-guidelines/page/author-instructions_JEC.html) |
+| ~~International Journal of AI in Education~~ | **Not recommended.** It moved from Springer to Elsevier on January 1, 2026. It is not in Northeastern's SciFree. Northeastern's Elsevier agreement covers "Core-Hybrid" journals only and is capped at 29 APCs for 2026. Coverage: UNVERIFIED and probably not covered. | UNVERIFIED | UNVERIFIED | — | [Springer journal page](https://link.springer.com/journal/40593) says the journal "will be published by Elsevier" |
+
+Deprioritized, as the brief says: Taylor & Francis (5 APCs for all of Northeastern in 2026) and Elsevier (29).
 
 ## Open decisions
 
@@ -210,7 +221,14 @@ Status as in Paper 1: **verified** (checked 2026-11-22), **verifying**, **UNVERI
 8. **Push-timeline evidence.** CI on push, instructor snapshots, or none (see Paper 1's benchmark open decision 4).
 9. **Optional secondary analysis (transfer check).** Keep it, which requires the in-class transfer check and possibly the core quiz instruments, or drop it to simplify the course setup.
 10. **Pre-registration timing and venue.** OSF before May 4, 2027.
-11. **Multi-site.** Recruit other instructors for Spring 2027 (amendment before January), or for a later term.
+11. **Multi-site.** Recruit other instructors for Spring 2027 (amendment before January), or for a later term. Northeastern serves as IRB of record only for **non-exempt** research at U.S. institutions with an FWA, and "does not enter into reliance agreements or establish IIAs for exempt research." If Paper 2 is exempt, each external site needs its own IRB determination. If it is non-exempt (for example, expedited), external sites can rely on Northeastern, preferably through SMART IRB.
 12. **Retroactive data.** The brief limits Paper 2 to next semester's data. The earlier plan also asked to use Fall 2026 records. Confirm that they are out.
-13. **Venue**, pending the coverage check.
+13. **Venue.**
+    - (a) LAK28, expected late September 2027. It fits the learning-analytics audience, but its publication route after the JLA trial is not announced.
+    - (b) The Journal of Learning Analytics directly: free, rolling, 8,000 words.
+    - (c) TOCE: free through ACM Open and no length limit, but needs review tokens.
+    - (d) BJET: covered by the library, 5,000 to 6,000 words, practitioner notes.
+    - (e) JECR: covered by the library, 10,000 words.
+
+    IJAIED is out (now Elsevier, probably not covered). Tradeoff: conference visibility and speed against journal length and certainty.
 14. **Authorship**, including any co-investigators from other sites.
