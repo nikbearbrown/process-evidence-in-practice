@@ -1,0 +1,7 @@
+# Never commit student records, exports, consent lists or keys to this repo.
+data/
+exports/
+consent/
+*.key
+*.csv.raw
+.DS_Store
