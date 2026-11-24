@@ -1,6 +1,8 @@
 # How each measure is computed
 
 > **Status (2026-11-22):** written for the earlier study design, which validated a learning score against a transfer check and used Fall 2026 records. Paper 2 is now a classroom study of the Frictional audit. What changes in this file is listed in [irb-protocol-notes.md](../irb-protocol-notes.md) §11.
+>
+> **Update (2026-11-23):** the section "Probe receipts (instrument I-9)" added by Claude Code (Claude Opus 5.5) for the owner's review.
 
 ## Executive summary
 
@@ -70,6 +72,29 @@
 - From randomized hint levels (instrument I-7): for each hinted problem, the student saw either a partial hint (h₁) or a full hint (h₂) after a wrong first attempt.
 - **Gains:** g₁(s) = retry success rate after partial hints; g₂(s) = retry success rate after full hints; h₀ baseline is first-attempt success.
 - The preprint's ratio [ρ(h₁) − ρ(h₀)] / [ρ(h₂) − ρ(h₀)] is unstable when the denominator is near 0. **Use the bounded form Y₇(s) = g₁(s) / (g₁(s) + g₂(s))**, or report g₁ and g₂ separately. Report at group level first; per-student estimates from 6 to 10 items are noisy.
+
+## Probe receipts (instrument I-9)
+
+`frictional probe receipts` turns a student's receipts into separate evidence packets. Nothing adds them into a GLP score. Each number describes answers given under recorded conditions (no AI, no notes); none measures learning, authorship or AI use.
+
+| Component | Probe rows | Minimum-data limit |
+|---|---|---|
+| Y₁ | each item's start and end time, with the difficulty fixed at freeze (low, medium, high) | Y₁ above is Spearman over at least 8 rated units; a probe has 6 to 8 items, and the timeboxes and hint ladder cut off the longest. Do not merge with milestone times: different grain, different difficulty scale. Intervals extended for an accommodation are left out. |
+| Y₃ | near and far items, correct or not | one of each per probe, so one probe gives no per-student gap. Pool probes or report for the group. Items differ per student, so keep them apart from I-5 unless pooling is pre-registered. |
+| Y₄ | every attempted item with a confidence; on the bug item, correct means fixed with no hint | Y₄ above needs 30 rated items; a probe gives 6 to 8. Probe confidence comes before the item and I-3's after, so any pooling is pre-registered, with the source as a covariate. |
+| Y₆ | predict items: share correct by delay from the deadline, forms A and B | a description only, and only if both sessions used the same view. No individual Y₆ (below). |
+| Y₇ | the bug item: success at each rung among those who reached it | one bug item per probe. The ladder is conditional, so no ratio and no g₁ or g₂; never pooled with I-7. |
+| Y₅ | none: the optional walkthrough rubric is a teaching aid | not a Y₅ source |
+
+The Y₁ and Y₇ packets need two small adapter changes in Frictional that are written but not yet applied (design note, section 11).
+
+**Why there is no individual Y₆ from probes.** Frictional's design note (`docs/probes-design.md`, section 7):
+
+> The preprint defines Y6 = ρ_treatment(t₃) − ρ_control(t₃): the difference, at a long delay, between material that had spaced retrieval and material that did not. A re-probe gives one student's success on the same functions at two delays. That describes change over time. But it mixes forgetting with the testing effect (the first probe is itself retrieval practice), with differences between forms A and B, and with later coursework that reuses the same ideas. With no unspaced material to compare against, it cannot show a spacing effect.
+
+An individual version would need the I-6 contrast inside each student (matched item sets, only one spaced, counterbalanced), parallel forms keyed at each delay, the same view and conditions at every delay, and enough items. The note: "At 60% correct, the standard error of the difference between two sets of n items each is about √(2 × 0.24 / n): 0.35 at n = 4, 0.25 at n = 8, and 0.10 at n = 48. A student's own project has 3 to 5 eligible functions." Its conclusion: "So v1 reports success by delay as a description. Any Y6 is a group-level analysis under the approved protocol." Y₆ in Paper 2 stays the I-6 definition above.
+
+**Pre-register** whether probe rows enter any component, and how (a separate source, pooled with a source flag, or group level only).
 
 ## Combining the components
 

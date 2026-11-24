@@ -1,6 +1,8 @@
 # Setting up next semester's courses
 
 > **Status (2026-11-22):** written for the earlier study design, which validated a learning score against a transfer check and used Fall 2026 records. Paper 2 is now a classroom study of the Frictional audit. What changes in this file is listed in [irb-protocol-notes.md](../irb-protocol-notes.md) §11.
+>
+> **Update (2026-11-23):** comprehension-probe (I-9) dates added to the calendar by Claude Code (Claude Opus 5.5) for the owner's review. The course calendar has no project deadlines yet, so every probe date is a placeholder.
 
 ## Executive summary
 
@@ -9,7 +11,7 @@
 **Why read it:** the validation paper (Paper 2) depends entirely on data that only exists if these instruments are in place before the first class. The IRB application describes this design, so build what the application says, and change neither without the other.
 
 **What it decides:**
-- **Every course gets the core set:** milestone commits, the Frictional log as now, confidence ratings on quizzes, misconception-coded distractors, near and far transfer items, and the in-class transfer check near the end of term. Most of this is a few extra questions per quiz.
+- **Every course gets the core set:** milestone commits, the Frictional log as now, confidence ratings on quizzes, misconception-coded distractors, near and far transfer items, and the in-class transfer check near the end of term. Most of this is a few extra questions per quiz. Courses whose projects are Python also get the comprehension probe (I-9), built from each student's own code.
 - **One or two courses may get the full set**, adding counterbalanced spaced retrieval and randomized hints. Pick the largest sections: the information gain test needs students, and 20-student sections are too small to carry it alone. The full set randomly assigns students, which probably moves the IRB application from exempt to expedited review; it is optional.
 - Nothing here is research-only. Every instrument is part of the course for every student; the research question is only whether consenting students' records may be used.
 
@@ -47,7 +49,7 @@ The counts are of folders and files only; no student work was opened to build th
    - [ ] One line added to the GitHub setup instructions: use the GitHub no-reply email for commits.
    - [ ] Milestone names in each assignment's instructions.
 4. **Syllabus:**
-   - [ ] Describe the activities as part of the course (they are): confidence ratings, review quizzes, hinted practice, the in-class check. No research language is needed there.
+   - [ ] Describe the activities as part of the course (they are): confidence ratings, review quizzes, hinted practice, the in-class check, and (Python-project courses) the comprehension probe and re-probe with their dates, for completion credit. No research language is needed there.
    - [ ] Add one neutral sentence: "A separate, optional research study may ask to use course records; it will be explained by someone who does not teach or grade this course, and taking part or not has no effect on your grade."
 5. **People:**
    - [ ] The third party (consent collector and honest broker) is booked for a 5-minute class visit in the last week of classes (April 20 to 23), with the approved script from [../irb/recruitment-script.md](../irb/recruitment-script.md).
@@ -71,11 +73,12 @@ Spring 2027 dates from Northeastern's 2026–2027 academic calendar (marked "sub
 | 1 | Jan 13 to 15 | Calibration mini-lesson (5 minutes); confidence ratings start on every quiz | |
 | 2 | Jan 18 to 22 (no class Jan 18, MLK Day) | Core concepts begin (weeks 2 to 6 are the targets of the transfer check) | |
 | 3 | Jan 25 to 29 | Add/drop ends Jan 26: freeze the roster for the study | Randomize the two lists |
-| 4 | Feb 1 to 5 | Weekly quizzes with confidence ratings and coded distractors continue all term; milestone commits all term | Retrieval quiz 1 (set A to list 1, set B to list 2); hinted practice begins |
-| 6 | Feb 15 to 19 (no class Feb 15, Presidents Day) | | |
+| 4 | Feb 1 to 5 | Weekly quizzes with confidence ratings and coded distractors continue all term; milestone commits all term. [Placeholder] Python-project courses: first project deadline, end of week; probes are built from this submission | Retrieval quiz 1 (set A to list 1, set B to list 2); hinted practice begins |
+| 5 | Feb 8 to 12 | [Placeholder] Python-project courses: build each student's probe (keys from the container run), rate item difficulty, write the transfer tasks, freeze | |
+| 6 | Feb 15 to 19 (no class Feb 15, Presidents Day) | [Placeholder] Python-project courses: comprehension probe, form A, in class, no AI or notes (part 1 collected before part 2; at most about 50 minutes) | |
 | 7 | Feb 22 to 26 | | Retrieval quiz 2 |
 | | Mar 8 to 14 | Spring break | |
-| 10 | Mar 22 to 26 | | Retrieval quiz 3 |
+| 10 | Mar 22 to 26 | [Placeholder] Python-project courses: comprehension re-probe, form B (predict items only, about 10 to 15 minutes), about 5 weeks after the probe; any date in weeks 9 to 11 keeps it 4 to 6 weeks after | Retrieval quiz 3 |
 | 11 | Mar 29 to Apr 2 | | Hinted practice ends |
 | 12 | Apr 5 to 9 | | In-class retention quiz (both sets) |
 | 13 | Apr 12 to 16 | In-class, paper, proctored transfer check (completion credit) | |

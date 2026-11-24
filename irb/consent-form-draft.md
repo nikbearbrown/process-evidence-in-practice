@@ -24,13 +24,14 @@ Text in [square brackets] is to be filled in.
 
 **What the study is about.** Assignments, essays and code no longer prove on their own that someone learned, because AI can produce them. This study asks whether the *process* of doing coursework (when you work, which mistakes you make and in what order, how sure you are of your answers, what you write in your Frictional log) carries information about learning that the finished work does not.
 
-**What you are asked to do.** Nothing more. Every activity this study uses (quizzes with confidence ratings, spaced review quizzes, practice problems with hints, the Frictional log, the in-class check near the end of term) was part of the course for everyone, whether or not you take part. [If the full set ran: in this section, students were randomly divided into two groups that received review quizzes and hints on different topics, so that everyone received the same amount of each.] This form only asks whether your records from those activities may be used in research.
+**What you are asked to do.** Nothing more. Every activity this study uses (quizzes with confidence ratings, spaced review quizzes, practice problems with hints, the Frictional log, the in-class check near the end of term) was part of the course for everyone, whether or not you take part. [If the full set ran: in this section, students were randomly divided into two groups that received review quizzes and hints on different topics, so that everyone received the same amount of each.] [If probes ran: the comprehension probes, short in-class exercises built from your own project code, were also part of the course for everyone. They counted for completion credit only and were never used to check academic integrity.] This form only asks whether your records from those activities may be used in research.
 
 **Which records.** If you agree, the following records from [course number and title], [term] may be used:
 - your FRICTIONAL.md log entries
 - the commit history of your course work (times, commit messages and changes)
 - your quiz answers and confidence ratings
 - your scores on assignments, quizzes and the in-class checks
+- [If probes ran:] your comprehension-probe receipts: which items you tried, how sure you were, how long each took, which hint you needed, and whether you were right. Not your answers, and not the probe sheets, which contain your code.
 
 **Who will see them.** [Third party] removes your name, username, email address and other identifiers and replaces them with a code before the researcher sees any research data. The key linking codes to names is kept by [third party] only, and destroyed [when]. Records may be shared, without identifiers, with research collaborators listed in the IRB-approved protocol.
 

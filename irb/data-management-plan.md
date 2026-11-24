@@ -22,8 +22,8 @@
 ## Steps, in order
 
 1. **Term ends; grades submitted.** Nothing is exported before this.
-2. **Export (honest broker).** For consenting students only: FRICTIONAL.md files, git history (`git log` with times, messages, diffs), Canvas quiz reports, gradebook columns used in the study. Records of students who did not consent are never exported.
-3. **Replace identifiers.** Each student gets a random code. Removed or replaced: names and initials, folder names, GitHub usernames, commit author names and emails, Canvas IDs, repository URLs, and any name, employer, hometown or other personal detail inside log text.
+2. **Export (honest broker).** For consenting students only: FRICTIONAL.md files, git history (`git log` with times, messages, diffs), Canvas quiz reports, gradebook columns used in the study, comprehension-probe receipts (I-9) and the evidence packets derived from them. Records of students who did not consent are never exported. Probe specs, student sheets, instructor keys and bug variants contain the student's code and are never exported for research.
+3. **Replace identifiers.** Each student gets a random code. Removed or replaced: names and initials, folder names, GitHub usernames, commit author names and emails, Canvas IDs, repository URLs, probe receipt file names (the instructor's pseudonyms), and any name, employer, hometown or other personal detail inside log text.
 4. **Blur time without losing intervals.** Absolute dates are shifted by a random per-course offset; intervals between commits and the day-of-term are kept, because Y₁ needs them.
 5. **Hand over.** The coded data set goes to the researcher; the key stays with the honest broker.
 6. **Destroy the key** on [date], after which withdrawal is no longer possible (the consent form says so).

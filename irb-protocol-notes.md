@@ -1,4 +1,4 @@
-> **Provenance.** Drafted by Claude Code, model Claude Opus 5.5 (`claude-opus-5-5`), on 2026-11-22. Phase 1 deliverable for Paper 2.
+> **Provenance.** Drafted by Claude Code, model Claude Opus 5.5 (`claude-opus-5-5`), on 2026-11-22. Phase 1 deliverable for Paper 2. The comprehension probe (I-9) was added on 2026-11-23 by the same model, after the owner approved adding it to the application (Frictional probe design, decision 9a).
 >
 > **Human sign-off** (left blank until a human fills it in)
 > Name: ____________ Date: ____________ Decision (approved / approved with changes / rejected): ____________ Notes: ____________
@@ -21,6 +21,7 @@
   The teaching assistants work for the investigator, so their consent needs the same third-party protection as the students'.
 - **The review category depends on two design choices.** The first is whether review conditions are randomly assigned (DHR guidance: random assignment is "probably not exempt"). The second is whether every student's work is audited by an AI tool as course practice. The recommended two-pass design avoids random assignment.
 - **Running student code** (the install test) and **processing student work with an AI tool** both need explicit treatment. Northeastern's DHR has a form for AI systems used in research (added September 8, 2025).
+- **A new instrument, the comprehension probe (I-9),** builds an in-class probe from each student's own code. It is teaching use only until the DHR approves a protocol that lists it and the student consents (§4, §5 question 5, §6, §9).
 
 ## 1. Participants
 
@@ -66,6 +67,7 @@ The instructor's own markings and logs are recorded during the term for all subm
 - **Teaching assistant double-marking:** a random 20 to 30% sample, blind to the instructor's marks.
 - **Optional post-grade survey (students):** a few items on work style (offline work, squash merges, prior experience). Only if RQ5 and RQ6 keep it.
 - **Optional transfer check:** an in-class, proctored check near the end of term, completion credit only. Only if the secondary analysis is kept.
+- **Comprehension probe (I-9):** an in-class probe with no AI and no notes, built by Frictional from each student's own Python project. It has predict-the-output items, one injected-bug item with a hint ladder that is not randomized (partial hint at 5 minutes, full at 10), and one near and one far transfer task the instructor writes. Keys come from running the student's code in the install test's container, with the network off after setup. Every student in a section takes it, on an announced date, for completion credit; it is never triggered by an audit finding. An optional re-probe 4 to 6 weeks later. If an AI agent drafts the transfer wording from student code, name it on the AI-systems form. See [courses/instruments.md](courses/instruments.md) I-9.
 
 ## 5. Review category: questions for the DHR
 
@@ -73,6 +75,7 @@ The instructor's own markings and logs are recorded during the term for all subm
 2. The instructor and teaching assistant data (markings, decision logs, time) come from people, not students. Which category covers them, and do they need their own consent form?
 3. If random assignment of submissions to review conditions is used instead (Paper 2 open decision 3, option b), the DHR's exemption guidance says it would "probably not be exempt". Can it be reviewed as expedited within the same application?
 4. Is in-class recruitment in the last week of classes, with forms sealed until grades, acceptable, or should recruitment be email-only after grades?
+5. The comprehension probe (I-9) gives each student a bug item built from their own code, with a hint ladder that is not randomized: anyone who has not fixed the bug sees the partial hint at 5 minutes and the full hint at 10. Does that stay within normal educational practice (46.104(d)(1))? If partial against full hints were instead randomized per student, as in I-7, would that change the category, as random assignment does for I-6 and I-7?
 
 ## 6. Data handling
 
@@ -83,6 +86,7 @@ The instructor's own markings and logs are recorded during the term for all subm
   - Audit reports quote file paths and log text.
   - Small classes make projects recognizable.
 - **Reports are records too:** the audit reports about each student's work are research data and education records. Store and de-identify them like the submissions.
+- **Probe files (I-9):** specs, student sheets, instructor keys and bug variants contain the student's code, so they identify students whose repositories are public. They stay in the course, outside every repository, and are never exported for research. The honest broker exports receipts (item IDs, confidence, times, hint rung, correctness; no names, answers or code) and the evidence packets derived from them, for consenting students only, after grades. Receipts never record accommodation status.
 - **Storage:** a Northeastern-approved location for restricted student data. Ask the DHR or Information Technology Services which one.
 - **Publication:** aggregate statistics and charts by default; quotes only with consent and after a web-search check; no statistics for groups below a minimum size.
 - **Retention and destruction:** per DHR requirements; destroy the key on a set date.
@@ -120,7 +124,9 @@ The instructor's own markings and logs are recorded during the term for all subm
 | Teaching assistants feel pressure to participate for their supervisor | Third-party consent; participation not part of duties or evaluation |
 | An audit finding is wrong and harms a student's grade or standing | Findings are observations with alternative explanations, never verdicts. The course policy says findings are never the sole basis for a grade or integrity action. The two-pass design records every change, so harms are visible in the data. |
 | Re-identification from public repositories, reports or quotes | Honest broker; derived statistics by default; quotes only with consent and a search check; minimum group size |
-| Student code run in the install test damages systems or leaks data | Isolated sandbox; no credentials; restricted network |
+| Student code run in the install test or the probe's key run damages systems or leaks data | Isolated sandbox; no credentials; restricted network |
+| A probe result is read as a sign of misconduct, or as proof of who wrote the code | Same kinds and number of items for every student in a section, on an announced date; never triggered by an audit finding; completion credit; never the sole basis for a grade or integrity action. The tool says "changed from the starter", not "written by the student". |
+| Probe files identify students (they contain their code), or probe timing reveals an accommodation | Specs and sheets never exported; receipts hold no names, answers or code and never record accommodation status; extended intervals left out of Y₁ |
 | Student work processed by an AI provider | Institution-provided tool under its contract; the DHR AI form; stated in the syllabus and consent form |
 | Investigator bias (researcher and participant) | Blind independent TA marking; pre-registered marking guide; separate analysis of instructor and TA markings |
 | RQ6 groups expose sensitive characteristics | Method only as approved; no institutional sensitive data unless the DHR and the Office of the General Counsel approve; minimum group size |
@@ -141,3 +147,4 @@ RQ6 asks whether false positives cluster by work style or student circumstance. 
 | [irb/recruitment-script.md](irb/recruitment-script.md) | End-of-term student recruitment | Still valid. Add a TA recruitment script. |
 | [irb/data-management-plan.md](irb/data-management-plan.md) | Honest broker, de-identification | Add the audit reports as records; add markings, decision logs and time records. |
 | [courses/](courses/) | GLP instruments (Y₁ to Y₇, transfer check) | Keep the commit, README, process-log and push-record instruments. Keep quiz instruments and the transfer check only if the secondary analysis is kept. Add the two-pass review logging. |
+| Comprehension probe (I-9), across the files above | New: Frictional probe design approved 2026-11-23 (decision 9a) | Drafted 2026-11-23 for review: I-9 in [courses/instruments.md](courses/instruments.md), probe notes in [study/measures.md](study/measures.md), lines in the consent form and data plan, and §4, §5, §6 and §9 here. Also drafted 2026-11-23: I-9 in [irb/application-draft.md](irb/application-draft.md) (§4 design, §5 categories, §8 risks, §10 AI form) and placeholder probe dates in the calendar in [courses/README.md](courses/README.md). Still to do: real project deadlines, then real probe dates. |

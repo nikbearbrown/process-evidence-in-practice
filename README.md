@@ -85,6 +85,7 @@
 | [irb/application-draft.md](irb/application-draft.md), [irb/consent-form-draft.md](irb/consent-form-draft.md), [irb/recruitment-script.md](irb/recruitment-script.md), [irb/data-management-plan.md](irb/data-management-plan.md) | Drafts from the earlier design | To revise (IRB notes §11) |
 | [courses/README.md](courses/README.md), [courses/instruments.md](courses/instruments.md) | Spring 2027 setup and dated calendar, from the earlier design | To revise |
 | [study/measures.md](study/measures.md) | Definitions of the preprint's starter components and the transfer-check analysis | Applies to the optional secondary analysis |
+| [probe-i9-report.md](probe-i9-report.md) | What changed when the comprehension probe was added as instrument I-9, and what is still open | Drafted 2026-11-23, awaiting review |
 | `../auditing-the-making/` | Paper 1, `PROJECT.md` (sources), the claims ledger for both papers, verified references | — |
 
 **Never put student data in this repository.** The `.gitignore` blocks `data/`, `exports/` and `consent/`. Keep the repository private.
