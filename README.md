@@ -1,5 +1,28 @@
 # Process Evidence in Practice (Frictional, Paper 2)
 
+## Abstract
+
+*Working abstract. No manuscript exists yet, so this describes what the paper sets out to do. It reports no results.*
+
+Paper 1 tests whether the Frictional auditor detects what it claims to detect on synthetic data. This paper asks whether its findings help instructors assess real student work, and at what cost. It is a classroom study of about 200 students in the author's Spring 2027 courses, under IRB review, with opt-in consent collected by a third party and the instructor blind to consent until grades are posted. In the recommended design, the instructor assesses each submission without the audit report and then with it, and records any change. We plan to report the precision of findings on real work, how often findings change an assessment, the added review time, which dimensions instructors enable, and how often confounds such as squash merges and offline work occur.
+
+## Where the draft is
+
+There is no draft yet. The closest document is the section-by-section outline, [paper2-outline.md](paper2-outline.md).
+
+## What needs to be done
+
+- Submit the IRB application by December 4, 2026.
+- Settle the open decisions in the outline that the application depends on.
+- Build the instruments into the Spring 2027 courses before January 13, 2027.
+- Have a version of the auditor that has passed Paper 1's benchmark.
+
+The full list, in order, is under [The steps, in order](#the-steps-in-order).
+
+## How to contribute
+
+Read the [contributor guide](CONTRIBUTING.md) first. This is a human-subjects study, so who may do what is limited. Anyone with access can review the design, the measures and the wording of the instruments. Only people named on the approved protocol can do anything that touches student work.
+
 ## Executive summary
 
 **What this is:** the working repository for Paper 2 of the Frictional program. The working title is *Process Evidence in Practice: A Classroom Study of Agent-Run Audits for Assessment*. It is the classroom study: about 200 students in the author's Spring 2027 courses, under IRB approval. Instructors use reports from the Frictional audit skill, and the study measures whether the findings are accurate on real work, whether they change assessments, and what they cost in review time. The folder will be renamed to match the title you sign off on.
@@ -15,8 +38,6 @@
 - **The IRB, consent and course drafts in [irb/](irb/) and [courses/](courses/) were written for the earlier study design.** That design validated a learning score against a transfer check, and used Fall 2026 records. [irb-protocol-notes.md](irb-protocol-notes.md) §11 lists what changes in each.
 - **The skill does not exist yet.** Paper 1 (`../auditing-the-making`) specifies how it is tested. The shared sources and the claims ledger for both papers live there.
 - **Nothing has been submitted, sent or changed in any course.** No student work was opened. One disclosure: before the outlining brief, the session counted student folders by file name in four course repositories. Those counts are in [courses/README.md](courses/README.md); remove them if you prefer.
-
-**Contributing:** read [CONTRIBUTING.md](CONTRIBUTING.md) first. This is a human-subjects study, so who may do what is limited.
 
 ## The steps, in order
 
