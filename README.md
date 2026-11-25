@@ -16,6 +16,8 @@
 - **The skill does not exist yet.** Paper 1 (`../auditing-the-making`) specifies how it is tested. The shared sources and the claims ledger for both papers live there.
 - **Nothing has been submitted, sent or changed in any course.** No student work was opened. One disclosure: before the outlining brief, the session counted student folders by file name in four course repositories. Those counts are in [courses/README.md](courses/README.md); remove them if you prefer.
 
+**Contributing:** read [CONTRIBUTING.md](CONTRIBUTING.md) first. This is a human-subjects study, so who may do what is limited.
+
 ## The steps, in order
 
 ### Now to December 4, 2026 (fall break is November 25 to 29)
