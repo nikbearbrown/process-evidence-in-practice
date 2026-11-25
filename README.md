@@ -1,5 +1,9 @@
 # Process Evidence in Practice (Frictional, Paper 2)
 
+**A classroom study of agent-run audits for assessment.**
+
+[Read the outline](paper2-outline.md) · [Contributor guide](CONTRIBUTING.md)
+
 ## Abstract
 
 *Working abstract. No manuscript exists yet, so this describes what the paper sets out to do. It reports no results.*
