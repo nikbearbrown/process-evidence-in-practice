@@ -115,4 +115,4 @@ Read the [contributor guide](CONTRIBUTING.md) first. This is a human-subjects st
 | [probe-i9-report.md](probe-i9-report.md) | What changed when the comprehension probe was added as instrument I-9, and what is still open | Drafted 2026-11-23, awaiting review |
 | `../auditing-the-making/` | Paper 1, `PROJECT.md` (sources), the claims ledger for both papers, verified references | — |
 
-**Never put student data in this repository.** The `.gitignore` blocks `data/`, `exports/` and `consent/`. Keep the repository private.
+**Never put student data in this repository.** It is public, so anyone can read what is committed here. The `.gitignore` blocks `data/`, `exports/` and `consent/`.
