@@ -4,7 +4,9 @@
 
 [Read the outline](paper2-outline.md) · [Contributor guide](CONTRIBUTING.md)
 
-## Abstract
+[Current rough draft](paper/rough-draft.md) · [Critique review](critiq-output/process-evidence-in-practice-review.md)
+
+## Historical abstract
 
 *Working abstract. No manuscript exists yet, so this describes what the paper sets out to do. It reports no results.*
 
@@ -12,9 +14,10 @@ Paper 1 tests whether the Frictional auditor detects what it claims to detect on
 
 ## Where the draft is
 
-There is no draft yet. The closest document is the section-by-section outline, [paper2-outline.md](paper2-outline.md).
+[Read the rough draft](paper/rough-draft.md) · [Read the Critique review](critiq-output/process-evidence-in-practice-review.md). This is a working manuscript for author review, not a submission.
+The [earlier outline](paper2-outline.md) and the materials farther down this README are historical planning records. The new protocol proposes consent-only research after grades post, subject to written institutional determination and any required approvals; it is not the earlier live grading design.
 
-## What needs to be done
+## Earlier planning checklist (historical)
 
 - Submit the IRB application by December 4, 2026.
 - Settle the open decisions in the outline that the application depends on.
@@ -43,7 +46,7 @@ Read the [contributor guide](CONTRIBUTING.md) first. This is a human-subjects st
 - **The skill does not exist yet.** Paper 1 (`../auditing-the-making`) specifies how it is tested. The shared sources and the claims ledger for both papers live there.
 - **Nothing has been submitted, sent or changed in any course.** No student work was opened. One disclosure: before the outlining brief, the session counted student folders by file name in four course repositories. Those counts are in [courses/README.md](courses/README.md); remove them if you prefer.
 
-## The steps, in order
+## Earlier schedule (historical)
 
 ### Now to December 4, 2026 (fall break is November 25 to 29)
 
